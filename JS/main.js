@@ -1,5 +1,5 @@
 let pokemones = [];
-const url = "/pokemons.json";
+const url = "../pokemons.json";
 let containerC;
 
 async function reqq(){

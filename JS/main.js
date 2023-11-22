@@ -1,5 +1,5 @@
 let pokemones = [];
-const urld = "../pokemons.json";
+const urld = "pokemons.json";
 let containerC;
 
 var quesoquesoqueso22 = "jhdskjajk";

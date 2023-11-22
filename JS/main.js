@@ -1,5 +1,5 @@
 let pokemones = [];
-const urld = "/../pokemons.json";
+const urld = "../pokemons.json";
 let containerC;
 
 var quesoquesoqueso22 = "jhdskjajk";
@@ -7,14 +7,16 @@ var quesoquesoqueso33 = "jhdskjajk";
 //.------------------------------------------
 async function reqq(){
     try{
+        console.log("antes de fetch");
         const response = await fetch(urld);
-
+        console.log("despues de fetch");
         if(response.status === 404){
             throw new Error("Error 404!");
         }
 
-        let data = await response.json();
-        return data;
+        let datae = await response.json();
+        console.log("ddespues de datae");
+        return datae;
     }
     catch(error){
         console.log("Error al leer <func reqq>!");

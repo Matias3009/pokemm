@@ -1,0 +1,76 @@
+body{
+    background-color: #6d3c3d;
+    /*opacity: 0.8;*/
+    background-image:  radial-gradient(#333333 0.75px, transparent 0.75px), radial-gradient(#333333 0.75px, #6d3c3d 0.75px);
+    background-size: 30px 30px;
+    background-position: 0 0,15px 15px;
+}
+
+#contt{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5vh;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 25rem;
+    background-color: #442526;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 0.7rem 0.1rem #000000;
+    /*border: 0.3rem solid #1f1f1f;*/
+}
+.cardd{
+    margin: 1rem;
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
+    /*padding: 0.2rem;*/
+    border-radius: 0.3rem;
+    background-color: #d3aeafff;
+    background-image: url("/cradt.svg");
+    background-size: cover;
+
+    object-fit: cover;
+    overflow: hidden;
+    box-shadow: 0 0 0.4rem 0.1rem #111111;
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100% 0%;
+    transition: grid-template-rows 1s;
+}
+.cardd:hover{
+    grid-template-rows: 0% 100%;
+}
+
+.description{
+    background-color: #442526;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 1rem;
+}
+
+.contText{
+    text-align: start;
+    padding-left: 0.3rem;
+    padding-top: 1rem;
+}
+
+.grass{
+    background-image: url("/planta.svg"), url("/cradt.svg");
+}
+.fire{
+    background-image: url("/fuego.svg"), url("/cradt.svg");
+}
+.bug{
+    background-image: url("/bug.svg"), url("/cradt.svg");
+}
+.water{
+    background-image: url("/water.svg"), url("/cradt.svg");
+}
+.electric{
+    background-image: url("/electric.svg"), url("/cradt.svg");
+}
+/*d3aeafff*/

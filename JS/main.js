@@ -1,7 +1,7 @@
 let pokemones = [];
 const url = "../pokemons.json";
 let containerC;
-
+//.------------------------------------------
 async function reqq(){
     try{
         const response = await fetch(url);

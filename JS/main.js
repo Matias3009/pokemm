@@ -1,6 +1,8 @@
 let pokemones = [];
 const url = "../pokemons.json";
 let containerC;
+
+var quesoquesoqueso22 = "jhdskjajk";
 //.------------------------------------------
 async function reqq(){
     try{

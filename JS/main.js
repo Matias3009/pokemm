@@ -1,8 +1,9 @@
 let pokemones = [];
-const urld = "../pokemons.json";
+const urld = "/../pokemons.json";
 let containerC;
 
 var quesoquesoqueso22 = "jhdskjajk";
+var quesoquesoqueso33 = "jhdskjajk";
 //.------------------------------------------
 async function reqq(){
     try{

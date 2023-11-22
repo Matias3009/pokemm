@@ -1,10 +1,10 @@
 let pokemones = [];
-const url = "../pokemons.json";
+const urld = "../pokemons.json";
 let containerC;
 //.------------------------------------------
 async function reqq(){
     try{
-        const response = await fetch(url);
+        const response = await fetch(urld);
 
         if(response.status === 404){
             throw new Error("Error 404!");

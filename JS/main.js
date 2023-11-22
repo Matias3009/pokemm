@@ -2,7 +2,7 @@ let pokemones = [];
 const urld = "JS/pokemons.json";
 let containerC;
 
-var quesoquesoqueso22 = "jhdskjajk";
+var quesoquesoqueso22 = "jhdsk";
 var quesoquesoqueso33 = "jhdk";
 //.------------------------------------------
 async function reqq(){
